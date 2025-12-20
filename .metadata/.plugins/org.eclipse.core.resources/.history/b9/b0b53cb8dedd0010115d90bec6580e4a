@@ -1,0 +1,4 @@
+spring.application.name=Finance Manager Application
+server.port=8000
+spring.security.user.name=<admin>
+spring.security.user.password=<tHe.mR_J0KeR>

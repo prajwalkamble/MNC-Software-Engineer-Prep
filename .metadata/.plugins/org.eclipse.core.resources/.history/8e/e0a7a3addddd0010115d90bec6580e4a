@@ -1,0 +1,2 @@
+spring.application.name=Finance Manager Application
+spring.server.port=8000
