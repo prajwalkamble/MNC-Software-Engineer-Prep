@@ -969,3 +969,38 @@ org.eclipse.core.runtime.CoreException: Launch configuration FinanceManagerAppli
 2025-12-21 01:56:49,346 [Worker-97: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
 2025-12-21 01:56:49,351 [Worker-97: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
 2025-12-21 01:56:49,355 [Worker-97: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory E:\MNC-Software-Engineer-Prep\02-Backend-SpringBoot\finance-manager\finance-manager-application\src\test\resources
+2025-12-21 10:35:12,249 [Worker-2: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2025-12-21 18:27:58,740 [Worker-8: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2025-12-21 18:28:04,649 [Worker-2: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-12-21 18:28:04,674 [Worker-2: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-12-21 18:28:04,679 [Worker-2: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory E:\MNC-Software-Engineer-Prep\02-Backend-SpringBoot\finance-manager\finance-manager-application\src\test\resources
+2025-12-21 18:31:02,282 [Worker-8: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2025-12-21 19:35:39,707 [Worker-39: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-12-21 19:35:39,742 [Worker-39: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-12-21 19:35:39,750 [Worker-39: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory E:\MNC-Software-Engineer-Prep\02-Backend-SpringBoot\finance-manager\finance-manager-application\src\test\resources
+2025-12-21 19:48:22,369 [Start Help Server] INFO  org.eclipse.jetty.server.Server - jetty-12.0.3; built: 2023-10-27T03:25:22.284Z; git: a873259fd5af141dedaa6c7fa8fe8fbdedce0d61; jvm 21.0.2+13-LTS
+2025-12-21 19:48:22,457 [Start Help Server] INFO  o.e.j.server.handler.ContextHandler - Started oeje8n.ContextHandler$CoreContextHandler@34da8af5{/help,/help,b=null,a=AVAILABLE,h=oeje8n.ContextHandler$CoreContextHandler$CoreToNestedHandler@3c22ce97{STARTED}}
+2025-12-21 19:48:22,458 [Start Help Server] INFO  o.e.j.s.DefaultSessionIdManager - Session workerName=node0
+2025-12-21 19:48:22,490 [Start Help Server] INFO  o.e.jetty.server.AbstractConnector - Started ServerConnector@7a807318{HTTP/1.1, (http/1.1)}{127.0.0.1:50654}
+2025-12-21 19:48:22,501 [Start Help Server] INFO  org.eclipse.jetty.server.Server - Started oejs.Server@46c9c204{STARTING}[12.0.3,sto=0] @4675891ms
+2025-12-21 19:57:42,256 [Worker-52: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-12-21 19:57:42,264 [Worker-52: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-12-21 19:57:42,273 [Worker-52: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory E:\MNC-Software-Engineer-Prep\02-Backend-SpringBoot\finance-manager\finance-manager-application\src\test\resources
+2025-12-21 19:57:49,398 [Stop Help Server] INFO  org.eclipse.jetty.server.Server - Stopped oejs.Server@46c9c204{STOPPING}[12.0.3,sto=0]
+2025-12-21 19:57:49,409 [Stop Help Server] INFO  o.e.jetty.server.AbstractConnector - Stopped ServerConnector@7a807318{HTTP/1.1, (http/1.1)}{127.0.0.1:0}
+2025-12-21 22:09:45,619 [Worker-9: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2025-12-21 22:13:49,700 [Worker-33: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-12-21 22:13:49,725 [Worker-33: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-12-21 22:13:49,732 [Worker-33: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory E:\MNC-Software-Engineer-Prep\02-Backend-SpringBoot\finance-manager\finance-manager-application\src\test\resources
+2025-12-21 22:14:52,537 [Worker-31: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-12-21 22:14:52,542 [Worker-31: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-12-21 22:14:52,546 [Worker-31: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory E:\MNC-Software-Engineer-Prep\02-Backend-SpringBoot\finance-manager\finance-manager-application\src\test\resources
+2025-12-21 22:15:40,724 [Worker-31: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-12-21 22:15:40,729 [Worker-31: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-12-21 22:15:40,733 [Worker-31: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory E:\MNC-Software-Engineer-Prep\02-Backend-SpringBoot\finance-manager\finance-manager-application\src\test\resources
+2025-12-21 22:16:24,925 [Worker-3: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-12-21 22:16:24,930 [Worker-3: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-12-21 22:16:24,958 [Worker-3: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory E:\MNC-Software-Engineer-Prep\02-Backend-SpringBoot\finance-manager\finance-manager-application\src\test\resources
+2025-12-21 22:17:00,199 [Worker-31: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-12-21 22:17:00,204 [Worker-31: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-12-21 22:17:00,209 [Worker-31: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory E:\MNC-Software-Engineer-Prep\02-Backend-SpringBoot\finance-manager\finance-manager-application\src\test\resources
