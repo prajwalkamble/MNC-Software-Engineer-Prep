@@ -7,3 +7,8 @@ Day 2:
 - Learned array index-based thinking
 - Solved traversal and max element problems
 - Created User entity and repository
+
+Day 3:
+- Learned string index-based thinking
+- Solved palindrome and character frequency
+- Implemented request and response DTOs
