@@ -9,5 +9,9 @@
     <fullyQualifiedTypeName name="jakarta.persistence.GenerationType"/>
     <fullyQualifiedTypeName name="jakarta.persistence.Column"/>
     <fullyQualifiedTypeName name="org.springframework.data.jpa.repository.JpaRepository"/>
+    <fullyQualifiedTypeName name="com.financemanagerapp.service.UserServiceImpl"/>
+    <fullyQualifiedTypeName name="com.financemanagerapp.repository.UserRepository"/>
+    <fullyQualifiedTypeName name="com.financemanagerapp.dto.UserResponseDTO"/>
+    <fullyQualifiedTypeName name="com.financemanagerapp.dto.UserRequestDTO"/>
     <fullyQualifiedTypeName name="com.financemanagerapp.entity.User"/>
 </qualifiedTypeNameHistroy>

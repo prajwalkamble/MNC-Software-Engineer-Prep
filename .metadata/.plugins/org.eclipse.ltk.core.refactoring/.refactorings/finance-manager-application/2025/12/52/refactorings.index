@@ -2,3 +2,5 @@
 1766335540397	Rename type 'Repository'
 1766417372943	Rename type 'Request'
 1766417397683	Rename type 'VO'
+1766502158530	Rename type 'IService'
+1766502167291	Rename type 'ServiceImpl'

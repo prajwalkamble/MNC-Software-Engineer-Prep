@@ -1,0 +1,8 @@
+package com.financemanagerapp.service;
+
+import com.financemanagerapp.dto.UserRequestDTO;
+import com.financemanagerapp.dto.UserResponseDTO;
+
+public interface IUserService {
+	UserResponseDTO registerUser(UserRequestDTO userRequest);
+}
