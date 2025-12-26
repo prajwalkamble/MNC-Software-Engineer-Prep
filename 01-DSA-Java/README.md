@@ -18,3 +18,9 @@ Day 4:
 - Solved duplicate and first unique character problems
 - Implemented service layer with interface and implementation
 
+Day 5:
+- Learned two pointers optimization
+- Solved reverse array and pair sum
+- Implemented UserController
+- Understood full request-response flow
+

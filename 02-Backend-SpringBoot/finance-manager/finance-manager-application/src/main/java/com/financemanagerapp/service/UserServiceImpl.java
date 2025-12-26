@@ -6,15 +6,19 @@ import com.financemanagerapp.dto.UserRequestDTO;
 import com.financemanagerapp.dto.UserResponseDTO;
 import com.financemanagerapp.entity.User;
 import com.financemanagerapp.repository.UserRepository;
+import org.springframework.stereotype.Service;
 
+@Service
 public class UserServiceImpl implements IUserService {
+	
 	private final UserRepository userRepository;
 	
-	public UserServiceImpl (UserRepository userRepository) {
+	public UserServiceImpl(UserRepository userRepository) {
 		this.userRepository = userRepository;
 	}
 	
-	public UserResponseDTO registerUser (UserRequestDTO request) {
+	@Override
+	public UserResponseDTO registerUser(UserRequestDTO request) {
 		
 		User user = new User();
 		user.setName(request.getName());

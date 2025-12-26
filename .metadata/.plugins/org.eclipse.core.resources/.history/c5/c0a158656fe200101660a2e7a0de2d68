@@ -1,0 +1,37 @@
+package com.financemanagerapp.service;
+
+// Controller → Service → Repository → DB
+
+import com.financemanagerapp.dto.UserRequestDTO;
+import com.financemanagerapp.dto.UserResponseDTO;
+import com.financemanagerapp.entity.User;
+import com.financemanagerapp.repository.UserRepository;
+import org.springframework.stereotype.Service;
+
+@Service
+public class UserServiceImpl implements IUserService {
+	
+	private final UserRepository userRepository;
+	
+	public UserServiceImpl (UserRepository userRepository) {
+		this.userRepository = userRepository;
+	}
+	
+	@Override
+	public UserResponseDTO registerUser (UserRequestDTO request) {
+		
+		User user = new User();
+		user.setName(request.getName());
+		user.setEmail(request.getEmail());
+		user.setPassword(request.getPassword());
+		
+		User savedUser = userRepository.save(user);
+		
+		UserResponseDTO response = new UserResponseDTO();
+		response.setId(savedUser.getId());
+		response.setName(savedUser.getName());
+		response.setEmail(savedUser.getEmail());
+		
+		return response;
+	}
+}
