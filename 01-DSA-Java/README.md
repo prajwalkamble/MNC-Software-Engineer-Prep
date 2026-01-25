@@ -24,3 +24,8 @@ Day 5:
 - Implemented UserController
 - Understood full request-response flow
 
+Day 6:
+- Learned sliding window optimization
+- Implemented input validation using @Valid
+- Added global exception handling
+- Made APIs production-safe

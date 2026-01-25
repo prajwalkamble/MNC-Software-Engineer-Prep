@@ -1,7 +1,0 @@
-package com.financemanagerapp.dto;
-
-public class UserResponseDTO {
-	private String name;
-  private String email;
-  private String password;
-}

@@ -3,6 +3,9 @@ package com.financemanagerapp.controller;
 import com.financemanagerapp.dto.UserRequestDTO;
 import com.financemanagerapp.dto.UserResponseDTO;
 import com.financemanagerapp.service.IUserService;
+
+import jakarta.validation.Valid;
+
 import org.springframework.web.bind.annotation.*;
 
 @RestController
@@ -16,8 +19,13 @@ public class UserController {
 	}
 	
 	@PostMapping("/register")
-	public UserResponseDTO register(@RequestBody UserRequestDTO userRequest) {
+	public UserResponseDTO register(@Valid @RequestBody UserRequestDTO userRequest) {
 		return userService.registerUser(userRequest);
+	}
+	
+	@GetMapping("/health")
+	public String health() {
+		return "User service running";
 	}
 }
 

@@ -1,5 +1,0 @@
-package com.financemanagerapp.repository;
-
-public interface UserRepository {
-
-}

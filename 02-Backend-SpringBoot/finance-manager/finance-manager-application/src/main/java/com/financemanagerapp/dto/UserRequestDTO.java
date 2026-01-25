@@ -1,11 +1,22 @@
 package com.financemanagerapp.dto;
 
+import jakarta.validation.constraints.Email;
+import jakarta.validation.constraints.NotBlank;
+import jakarta.validation.constraints.Size;
+
 // Why not expose Entity directly?
 // DTOs protect internal structure and control data flow.
 
 public class UserRequestDTO {
+	
+	@NotBlank(message = "Name cannot be empty")
 	private String name;
+	
+	@Email(message = "Invalid Email")
+	@NotBlank(message = "Email cannot be empty")
   private String email;
+	
+	@Size(min = 8, message = "Password must be atleast 8 characters")
   private String password;
 
   public String getName() {
